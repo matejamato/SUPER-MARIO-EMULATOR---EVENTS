@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./bg.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+img {
+    height: 150px;
+    position: absolute;
+    bottom: 100px;
+}
+.marioTurnedLeft {
+    transform: rotateY(180deg);
+}
+.marioTurnedRight {
+    transform: rotateY(0deg);
+}
